@@ -61,7 +61,6 @@ f = lambda x, y: np.sqrt((x - 50)**2 + (y - 50)**2)
 #     0.1 * ((x-50)**2 + (y-50)**2)
 # )
 
-# Preview function in 3D (optional - uncomment to use)
 def preview_3d():
     x = np.linspace(0, S-1, S)
     y = np.linspace(0, S-1, S)
@@ -78,7 +77,6 @@ def preview_3d():
     fig.colorbar(surf, shrink=0.5, aspect=5)
     plt.show()
 
-# Uncomment the line below to preview the function before running PSO:
 preview_3d()
 
 results = np.zeros((S, S)) 
